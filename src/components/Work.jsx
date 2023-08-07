@@ -1,7 +1,4 @@
 import React from 'react'
-import work1 from '../assets/workImg.jpeg'
-import work2 from '../assets/realestate.jpg'
-import Code from '../assets/code.jpg'
 import Epicjump from '../assets/epicjump3.png'
 import Meditatio from '../assets/meditatio.png'
 import Sudoku from '../assets/sudoku.png'
@@ -15,7 +12,7 @@ const Work = () => {
                     My Work
                 </p>
                 <p className='py-4'>
-                    // Check out some of my recent projects
+                    Check out some of my recent projects
                 </p>
             </div>
 

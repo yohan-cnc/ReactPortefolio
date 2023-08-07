@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo1.png'
 import {Link} from 'react-scroll'
+import Resume from '../assets/CV_CANAC_Yohan.pdf'
 
 const Navbar = () => {
     const  [nav, setNav] = useState(false)
@@ -82,7 +83,7 @@ const Navbar = () => {
         {/*Social Icons*/}
         <div className='hidden  lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-tr-md'>
                     <a className='flex justify-between items-center w-full text-gray-300'
                     href="https://www.linkedin.com/in/yohan-canac-85a50b223/">
                         Linkedin <FaLinkedin size={30}/>
@@ -100,9 +101,9 @@ const Navbar = () => {
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded-br-md'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href={Resume} download={true}>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

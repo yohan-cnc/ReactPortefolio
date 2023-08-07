@@ -1,6 +1,10 @@
 import React from 'react'
 import work1 from '../assets/workImg.jpeg'
 import work2 from '../assets/realestate.jpg'
+import Code from '../assets/code.jpg'
+import Epicjump from '../assets/epicjump3.png'
+import Meditatio from '../assets/meditatio.png'
+import Sudoku from '../assets/sudoku.png'
 
 const Work = () => {
   return (
@@ -19,74 +23,63 @@ const Work = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                 {/* Grid item */}
-                <div style={{backgroundImage: `url(${work1})`}}
+                <div style={{backgroundImage: `url(${Meditatio})`}}
                 className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='text-auto font-bold text-white tracking-wider'>
+                            Android Application writted in Kotlin
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                        <a href="https://github.com/Meditatio/meditatio">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>More Info</button>
                             </a>
                         </div>
                     </div>
                 </div>
+                <div style={{backgroundImage: `url(${Epicjump})`}}
+                className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 '>
+                        <span className='text-auto font-bold text-white tracking-wider'>
+                            Unity 2D Mulitplayer Game
+                        </span>
+                        <div className='pt-8 text-center'>
+                        <a href="https://armandsoursou.github.io/Powell/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${Sudoku})`}}
+                className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 '>
+                        <span className='text-auto font-bold text-white tracking-wider'>
+                            OCR Sudoku Solver writted in C
+                        </span>
+                        <div className='pt-8 text-center'>
+                        <a href="https://github.com/inigoalda/EPITA-Projet-S3">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                {/*
                 <div style={{backgroundImage: `url(${work2})`}}
                 className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
-                    {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='text-auto font-bold text-white tracking-wider '>
+                            Abacus : in shell calculator
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div style={{backgroundImage: `url(${work1})`}}
-                className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effect */}
-                    <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div style={{backgroundImage: `url(${work2})`}}
-                className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effect */}
-                    <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                        <a href="">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>More Info</button>
                             </a>
                         </div>
                     </div>
@@ -94,39 +87,27 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${work1})`}}
                 className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
-                    {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='text-auto font-bold text-white tracking-wider'>
+                            OOP Waste Management Simulation
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                        <a href="">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>More Info</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${work2})`}}
+                <div style={{backgroundImage: `url(${Code})`}}
                 className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
-                    {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='text-auto font-bold text-white tracking-wider'>
+                            On Going...
                         </span>
-                        <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
+                        
                     </div>
-                </div>
+                </div>*/}
             </div>
         </div>
     </div>

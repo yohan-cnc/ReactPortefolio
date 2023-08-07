@@ -19,11 +19,11 @@ const About = () => {
                     </p>
                 </div> 
                 <div>
-                    <p>I'm a 20 years old student living in Toulouse, France. 
-                        I'm studing computer science at Epita, a top french 
-                        engineering school. I've learned a lot of technologies
-                        for both school et personal projects. I've also spend a
-                        semester at UQAC, Canada to learn new skills and techs.
+                    <p>I am a 20-year-old student living in Toulouse, France. Currently, 
+                        I am studying computer science at Epita, a prestigious French engineering school. 
+                        Throughout my academic journey, I have acquired knowledge in various technologies,
+                        both for school and personal projects. 
+                        I've spend a semester at UQAC in Canada, where I honed my skills and acquired new knowledge.
                     </p>
                 </div> 
             </div> 

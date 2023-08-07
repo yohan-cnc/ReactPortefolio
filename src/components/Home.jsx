@@ -40,7 +40,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div name='home' className='w-full h-screen bg-[#272829] flex items-center'>
+        <div name='home' className='w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 flex items-center'>
             {/* Left Side */}
             <div className='mx-auto lg:ml-[120px] pl-9 '>
                 <p className='text-pink-600'>Hi, my name is</p>

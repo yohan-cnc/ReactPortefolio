@@ -9,7 +9,7 @@ const Contact = () => {
                     Contact Me
                 </p>
                 <p className='text-gray-300 py-4'>
-                    // Submit the form below or send me an email - yohan.canac.21@gmail.com
+                    Submit the form below or send me an email - yohan.canac.21@gmail.com
                 </p>
             </div>
             <input className='bg-transparent p-2 border-2 rounded-md' type="text" placeholder="Name" name='name' />

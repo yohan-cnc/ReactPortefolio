@@ -10,7 +10,7 @@ const Home = () => {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Student', 'Programmer', 'Freelance'],
+            strings: ['Student', 'Programmer', ],
             loop: true,
             typeSpeed: 100,
             backSpeed: 80,

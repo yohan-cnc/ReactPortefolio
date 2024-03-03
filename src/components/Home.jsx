@@ -50,7 +50,7 @@ const Home = () => {
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px]'>
                     I'm a computer science student, studying at Epita, a French engineering school.
-                    Occasionally doing freelance and always having fun discovering many techs
+                    Always having fun discovering many techs and developing projects.
                 </p>
                 <div>
                     <button >

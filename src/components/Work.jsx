@@ -2,6 +2,7 @@ import React from 'react'
 import Epicjump from '../assets/epicjump3.png'
 import Meditatio from '../assets/meditatio.png'
 import Sudoku from '../assets/sudoku.png'
+import Quarantedeuxsh from '../assets/quarantedeuxsh.jpg'
 
 const Work = () => {
   return (
@@ -65,7 +66,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${quarantedeuxsh})`}}
+                <div style={{backgroundImage: `url(${Quarantedeuxsh})`}}
                 className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}

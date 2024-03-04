@@ -18,7 +18,7 @@ const Work = () => {
             </div>
 
            {/* Container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
 
                 {/* Grid item */}
                 <div style={{backgroundImage: `url(${Meditatio})`}}
@@ -74,7 +74,7 @@ const Work = () => {
                         <span className='text-auto font-bold text-white tracking-wider'>
                             Posix Shell Implementation
                         </span>
-                        <div className='pt-8 text-center'>é
+                        <div className='pt-8 text-center'>
                         <a href="https://trove.assistants.epita.fr/docs/42sh/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>More Info</button>
                             </a>

@@ -65,6 +65,21 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                <div style={{backgroundImage: `url(${quarantedeuxsh})`}}
+                className='shadow-lg shadow-[##141414] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 '>
+                        <span className='text-auto font-bold text-white tracking-wider'>
+                            Posix Shell Implementation
+                        </span>
+                        <div className='pt-8 text-center'>é
+                        <a href="https://trove.assistants.epita.fr/docs/42sh/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 
                 {/*
                 <div style={{backgroundImage: `url(${work2})`}}
